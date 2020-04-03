@@ -1,26 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import './global.css'
+
+import Logon from './pages/Logon';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello, Word!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <Logon />
+    );
+  };
+  
+  export default App;
 
-export default App;
+
+  // useState retorna um array [valor da variavel, função de atualização]
+  //JSX (JavaScript XML), quando o HTML é escrito em um arquivo .js
